@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <main>
+    <img class="logo" src="assets/logo.svg" alt="vertigo logomark">
+    <div class="login-screen">
+      <div class="text-screen">
+        <h1>Acesse a plataforma</h1>
+        <p>Faça login ou registre-se para começar a construir seus projetos ainda hoje</p>
+      </div>
+      <div class="input-buttons">
+
+        <form action="#" method="post" name="formLogin">
+          <!-- email input -->
+          <div class="email">
+            <label for="email">E-mail</label>
+            <input id="email" name="email" type="email" placeholder="Digite seu e-mail" required>
+          </div>
+          <!-- password input-->
+          <div class="password">
+            <div class="labelAndForgotPassword">
+              <label for="password">Senha</label>
+              <a href="#">Esqueceu a senha?</a>
+            </div>
+            <div class="show-password">
+              <input id="password" name="password" type="password" placeholder="Digite sua senha" required>
+              <button type="button" id="show">
+                <img src="assets/eye.svg" alt="mostra senha" id="show-image">
+                <img src="assets/eye-off.svg" alt="ocultar senha" id="hide-image">
+              </button>
+            </div>
+          </div>
+
+
+          <div class="submit">
+            <button type="submit">Entrar</button>
+            <a href="#">Ainda não tem uma conta? <span>Inscreva-se</span></a>
+          </div>
+
+        </form>
+      </div>
+    </div>
+  </main>
+  <img src="assets/background.svg" alt="background image" class="background">
+  <script src="script.js"></script>
+</body>
+
+</html>

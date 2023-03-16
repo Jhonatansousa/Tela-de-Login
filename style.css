@@ -1,0 +1,205 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+:root {
+  font-size: 62.5%;
+  --theme-color: #7C3AED;
+}
+
+body {
+  font-size: 1.6rem;
+  display: grid;
+  place-items: center;
+  background: #F8FAFC;
+  display: flex;
+  justify-content: space-between;
+}
+
+.background {
+  height: 100vh;
+  width: 50%;
+  object-fit: cover;
+}
+
+.logo {
+  position: absolute;
+  top: 4rem;
+  left: 11.2rem;
+}
+
+.login-screen {
+  width: 38.4rem;
+  height: 48.3rem;
+  margin: 0 20.8rem 0 11.2rem;
+
+}
+
+.text-screen {
+  margin-bottom: 4rem;
+  width: 35.1rem;
+}
+
+.text-screen h1 {
+  color: #1E293B;
+  font-weight: 700;
+  font-size: 3.6rem;
+  margin-bottom: 1.6rem;
+}
+
+p {
+  color: #475569;
+}
+
+
+/* ONLY INPUT */
+label {
+  margin-bottom: .8rem;
+}
+
+.email input,
+.password input {
+  padding: 1.6rem 1.2rem;
+  gap: 1rem;
+  border-radius: 4px;
+  border: 1px solid #E2E8F0;
+}
+
+input {
+  outline: none;
+}
+
+input:focus-within,
+input:hover {
+  border-color: var(--theme-color);
+}
+
+/* EMAIL INPUT, and SUBMIT */
+.email,
+.submit {
+  display: flex;
+  flex-direction: column;
+}
+
+
+/* password input */
+
+.password {
+  margin-top: 1.6rem;
+}
+
+.password input {
+  width: 38.4rem;
+}
+
+.labelAndForgotPassword {
+  display: flex;
+  justify-content: space-between;
+}
+
+.labelAndForgotPassword a,
+span {
+  text-decoration: none;
+  color: var(--theme-color);
+  font-weight: 600;
+}
+
+.labelAndForgotPassword a:hover,
+a:hover span {
+  text-decoration: underline;
+}
+
+a {
+  text-decoration: none;
+  color: #475569;
+}
+
+/* show password */
+.password input::-ms-reveal {
+  display: none;
+}
+
+.show-password {
+  position: relative;
+}
+
+#show {
+  position: absolute;
+  width: 2rem;
+  height: 2rem;
+  top: 50%;
+  right: 2rem;
+  transform: translateY(-50%);
+  display: flex;
+  border: none;
+  background-color: #FFFFFF;
+  cursor: pointer;
+}
+
+#hide-image {
+  display: none;
+}
+
+#show img {
+  width: 2rem;
+  height: 2rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+/* SUBMIT BUTTON  */
+
+
+.submit button {
+  margin: 3.2rem 0;
+  height: 5.6rem;
+  border: none;
+  background-color: var(--theme-color);
+  color: white;
+  font-weight: 700;
+  border-radius: 3px;
+}
+
+.submit button:hover {
+  background-color: #9F67FF;
+  transition: .2s;
+}
+
+
+
+
+
+
+
+
+@media (min-width:320px) {
+  /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+}
+
+@media (min-width:480px) {
+  /* smartphones, Android phones, landscape iPhone */
+}
+
+@media (min-width:600px) {
+  /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+}
+
+@media (min-width:801px) {
+  /* tablet, landscape iPad, lo-res laptops ands desktops */
+}
+
+@media (min-width:1025px) {
+  /* big landscape tablets, laptops, and desktops */
+}
+
+@media (min-width:1281px) {
+  /* hi-res laptops and desktops */
+}
