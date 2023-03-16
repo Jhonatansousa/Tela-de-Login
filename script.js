@@ -1,12 +1,17 @@
 //INVALID EMAIL BORDER COLOR
 
-var emailInput = document.getElementById("email");
+let emailInput = document.getElementById("email");
+let errorEmail = document.getElementById("wrongEmail")
 
 emailInput.addEventListener("input", function () {
   if (emailInput.validity.valid) {
     emailInput.style.borderColor = "#7C3AED";
+    // errorEmail.classList.add("hide");
+    errorEmail.classList.remove("wrong-email")
   } else {
-    emailInput.style.borderColor = "red";
+    emailInput.style.borderColor = "#ED3A5A";
+    errorEmail.classList.add("wrong-email")
+
   }
 });
 

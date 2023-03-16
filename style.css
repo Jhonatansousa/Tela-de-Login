@@ -86,6 +86,21 @@ input:hover {
   flex-direction: column;
 }
 
+.email {
+  position: relative;
+}
+
+.hide {
+  display: none;
+}
+
+.wrong-email {
+  color: #ED3A5A;
+  position: absolute;
+  top: 8.2rem;
+  display: block;
+}
+
 
 /* password input */
 
@@ -176,30 +191,61 @@ a {
 
 
 
+@media (max-width: 86rem) {
+  .background {
+    position: absolute;
+    z-index: -1;
+    right: 0;
+    bottom: 0;
+  }
 
-
-
-
-@media (min-width:320px) {
-  /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+  .login-screen {
+    margin-top: 12rem;
+  }
 }
 
-@media (min-width:480px) {
-  /* smartphones, Android phones, landscape iPhone */
+@media (max-width: 66.56rem) {
+  .logo {
+    left: 4.5rem;
+  }
+
+  .login-screen {
+    margin-left: 5rem;
+  }
 }
 
-@media (min-width:600px) {
-  /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+@media (max-width: 56.25rem) {
+  .background {
+    width: 35vw;
+  }
 }
 
-@media (min-width:801px) {
-  /* tablet, landscape iPad, lo-res laptops ands desktops */
+@media (max-width: 44rem) {
+  .background {
+    width: 20vw;
+  }
+
+  .login-screen {
+    height: fit-content;
+    margin: 12rem 0 0 2rem;
+  }
+
+  .logo {
+    left: 1rem;
+  }
 }
 
-@media (min-width:1025px) {
-  /* big landscape tablets, laptops, and desktops */
-}
+@media (max-width: 32rem) {
+  .background {
+    display: none;
+  }
 
-@media (min-width:1281px) {
-  /* hi-res laptops and desktops */
+  .login-screen {
+    margin: 7rem 0 0 .5rem;
+  }
+
+  .logo {
+    top: 1rem;
+    left: .3rem;
+  }
 }
