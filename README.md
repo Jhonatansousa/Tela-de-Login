@@ -34,3 +34,6 @@ https://jhonatansousa.github.io/Tela-de-Login/
 ![all device login screen project](https://user-images.githubusercontent.com/126415306/225780951-c5f65758-6701-46a2-9340-1fcd43210891.png)
   
 <img src="http://ForTheBadge.com/images/badges/built-with-love.svg">
+
+
+<a target="_blank" href="https://www.linkedin.com/in/jhonatan-s-da-silva-a1a77b268/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
