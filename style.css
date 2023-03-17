@@ -240,12 +240,16 @@ a {
     display: none;
   }
 
+  main {
+    margin: auto;
+  }
+
   .login-screen {
-    margin: 7rem 0 0 .5rem;
+    margin: 10rem auto;
   }
 
   .logo {
     top: 1rem;
-    left: .3rem;
+    left: 3rem;
   }
 }
